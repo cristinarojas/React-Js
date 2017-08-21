@@ -16,7 +16,7 @@ class App extends Component {
       <div className="App">
         <Header title="CodeJobs" items={items} />
         <Content />
-        <Footer />
+        <Footer/>
       </div>
     );
   }
