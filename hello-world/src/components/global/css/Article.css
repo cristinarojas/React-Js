@@ -1,0 +1,42 @@
+.my-article {
+	border: 1px solid #4CAF50;
+	height: 400px;
+}
+
+p {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+.my-button {
+	display: block;
+	margin: 0 auto;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.my-toggle-button {
+	display: block;
+	margin: 0 auto;
+    background-color: #a42bd6; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a {
+	display: block;
+	margin: 0 auto;
+	width: 50px;
+}
