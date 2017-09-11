@@ -8,14 +8,9 @@ import './css/Section.css';
 class Section extends Component { 
 	render() {
 		
-		// const {
-		// 	style: {
-		// 		color: a = "green",
-		// 		fontSize: b = "16px"
-		// 	}
-		// } = this.props;
-
-		//console.log(a, b);
+		 /*const {
+		 	title: 'hola'
+		 } = this.props;*/
 
 		console.log(this.props);
 		//console.log(color, fontSize, name, title);

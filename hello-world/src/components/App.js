@@ -7,6 +7,8 @@ import Content from './global/Content';
 import Article from './global/Article';
 import Section from './global/Section';
 import Footer from './global/Footer';
+import MapComponent from './global/MapComponent';
+import Forms from './global/Forms';
 
 // Data
 import items from '../data/menu';
@@ -28,9 +30,9 @@ class App extends Component {
     return (
       <div className="App">
         <Header title="CodeJobs" items={items} />
-        
+        <Forms />
+        <MapComponent />
         <Section title="Props and destructuring" name="cristina" style={style} attrs={attrs} />
-
         <Article />
         <Content />
         <Footer/>

@@ -1,0 +1,16 @@
+.wrapper-map {
+	border: 1px solid purple;
+}
+
+ul {
+	list-style: none;
+	padding: 0px;
+}
+
+ul li {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
