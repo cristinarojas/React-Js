@@ -1,14 +1,14 @@
 // Import react and component method
 import React, {Component} from 'react';
 
-// Import Style 
+// Import Style
 import './css/Article.css';
 
 // Declaring a class component
 class Article extends Component {
 
 	// constructor initialize state and bind methods
-	constructor() {		
+	constructor() {
 		// super() for have access to the "this object" of Article class.
 		// Call super(props) only if you want to access this.props inside the constructor.
 		super();
@@ -16,15 +16,22 @@ class Article extends Component {
 		// The state if for dynamic information, when the state is updated the render() is executed.
 		// state is an object with properties or nodes that we can uodate.
 		this.state = {
-			isToggleOn: true // node or property
+			isToggleOn: true, // node or property
+			text: 'Cristina'
 		};
 
 		// Bind the methods to use "this"
 		this.handleClickMe = this.handleClickMe.bind(this);
 		this.handlePreventClick = this.handlePreventClick.bind(this);
 		this.handleToggleButton = this.handleToggleButton.bind(this);
+		this.handleText = this.handleText.bind(this);
 	}
 
+	handleText() {
+		this.setState(prevState =>({
+			text: prevState
+		}))
+	}
 	// Function for clickMe
 	handleClickMe() {
 		alert('Click!');
@@ -38,11 +45,11 @@ class Article extends Component {
 
 	// Function for toggle the name of button
 	handleToggleButton() {
-		this.setState(prevState => ({
-			isToggleOn: !prevState.isToggleOn
-		}));
+		this.setState({
+			isToggleOn: !this.state.isToggleOn
+		});
 	}
-  
+
 	// Method for render the HTML tags
 	render() {
 		return (
@@ -59,6 +66,12 @@ class Article extends Component {
 				<button className="my-toggle-button" onClick={this.handleToggleButton}>
 					{this.state.isToggleOn ? 'ON' : 'OFF'}
 				</button>
+
+
+				<h1>{this.state.text}</h1>
+				<button className="my-toggle-button" onClick={this.handleText}>
+					change text
+				</button>
 			</div>
 		);
 	}
@@ -66,4 +79,3 @@ class Article extends Component {
 
 // Is used to export a single class
 export default Article;
-

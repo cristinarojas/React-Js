@@ -11,7 +11,7 @@ class Content extends Component {
 			number1: 0,
 			number2: 1,
 			result: 0
-		};
+		}
 
 		this.handleCountClick = this.handleCountClick.bind(this);
 		this.handleResultClick = this.handleResultClick.bind(this);
@@ -22,7 +22,7 @@ class Content extends Component {
 	componentDidMount() {
 		this.setState({
 			count: 1
-		}); 
+		});
 	}
 
 	// Function to handle the click
@@ -45,7 +45,7 @@ class Content extends Component {
 	handleResultClick(e) {
 		this.setState({
 			result: this.state.number1 + this.state.number2
-		}); 
+		});
 	}
 
 	// Updating the input values

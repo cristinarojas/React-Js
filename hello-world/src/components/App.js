@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 
 // Components
 import Header from './global/Header';
+import Statecomponent from './global/Statecomponent';
 import Content from './global/Content';
 import Article from './global/Article';
 import Section from './global/Section';
@@ -18,7 +19,7 @@ class App extends Component {
   render() {
     const style = {
       color: 'purple',
-      fontSize: '36px'
+      fontSize: '56px'
     };
 
     const attrs = {
@@ -26,13 +27,14 @@ class App extends Component {
       className: 'nombre-clase'
     };
 
-  
+    const theTitle = "The title";
+
     return (
       <div className="App">
         <Header title="CodeJobs" items={items} />
-        <Forms />
+        <Section theTitle={theTitle} title="Passing this prop" name="cristina" thestyle={style} theattrs={attrs} />
+        <Statecomponent />
         <MapComponent />
-        <Section title="Props and destructuring" name="cristina" style={style} attrs={attrs} />
         <Article />
         <Content />
         <Footer/>
