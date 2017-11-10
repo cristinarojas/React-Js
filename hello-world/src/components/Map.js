@@ -1,12 +1,12 @@
 // Import react and component method
 import React, {Component} from 'react';
 
-// Import Style 
-import './css/MapComponent.css';
+// Import Style
+import './Map.css';
 
 
 // Method for render the HTML tags
-class MapComponent extends Component { 
+class Map extends Component {
 	constructor() {
 		super();
 
@@ -27,9 +27,9 @@ class MapComponent extends Component {
 	render() {
 		return(
 			<div className="wrapper-map">
-				<h2> Map Use </h2>
+				<h1>Example of use of Map</h1>
 				<ul>
-					{this.state.users.map((user, i) => 
+					{this.state.users.map((user, i) =>
 						<li key={i}>{user.name}</li>
 					)}
 				</ul>
@@ -38,4 +38,4 @@ class MapComponent extends Component {
 	}
 }
 
-export default MapComponent;
+export default Map;

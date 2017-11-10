@@ -5,15 +5,23 @@ export default [
     url: '/'
   },
   {
-    title: 'About Us',
-    url: '/about'
+    title: 'Props',
+    url: '/props'
   },
   {
-    title: 'Contact Us',
-    url: '/contact'
+    title: 'Local State',
+    url: '/localstate'
   },
   {
-    title: 'Library',
-    url: '/library'
+    title: 'Map',
+    url: '/map'
+  },
+  {
+    title: 'Events',
+    url: '/events'
+  },
+  {
+    title: 'Other Local State',
+    url: '/otherlocalstate'
   }
 ];

@@ -25,4 +25,15 @@
 .Menu li {
 	display: inline-block;
 	padding-right: 10px;
+  font-size: 18px;
+}
+
+.Menu li a {
+  display: inline;
+}
+
+.Menu li:hover {
+  color: #5ebcf7;
+  cursor: pointer;
+  text-decoration: underline;
 }

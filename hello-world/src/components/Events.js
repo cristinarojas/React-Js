@@ -2,10 +2,10 @@
 import React, {Component} from 'react';
 
 // Import Style
-import './css/Article.css';
+import './Events.css';
 
 // Declaring a class component
-class Article extends Component {
+class Events extends Component {
 
 	// constructor initialize state and bind methods
 	constructor() {
@@ -55,7 +55,7 @@ class Article extends Component {
 		return (
 			//More than one HTML element need wrapper
 			<div className="my-article" >
-				<h1>Events and State</h1>
+				<h1>Example of Events and State</h1>
 				<p>I'm the button with Event </p>
 				<button className="my-button" onClick={this.handleClickMe}>Click me!</button>
 
@@ -78,4 +78,4 @@ class Article extends Component {
 }
 
 // Is used to export a single class
-export default Article;
+export default Events;

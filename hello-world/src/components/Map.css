@@ -1,5 +1,9 @@
 .wrapper-map {
-	border-bottom: 1px solid purple;
+	border-bottom: 3px solid  #5ebcf7;
+}
+
+.wrapper-map h1:first-child {
+	color: #5ebcf7;
 }
 
 ul {

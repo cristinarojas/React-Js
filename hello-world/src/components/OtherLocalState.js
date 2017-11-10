@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './css/Content.css';
+import './OtherLocalState.css';
 
-class Content extends Component {
+class OtherLocalState extends Component {
 
 	constructor() {
 		super();
@@ -67,7 +67,7 @@ class Content extends Component {
 		// Render this HTML
 	    return (
 	      <div className="Content">
-	        <h1>Soy el contenido</h1>
+	        <h1>Other Example of Local State</h1>
 
 	        <h2>Count: { this.state.count }</h2>
 
@@ -90,4 +90,4 @@ class Content extends Component {
 	}
 }
 
-export default Content;
+export default OtherLocalState;

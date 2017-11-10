@@ -1,0 +1,7 @@
+.wrapper-state {
+	border-bottom: 3px solid  #5ebcf7;
+}
+
+.wrapper-state h1:first-child {
+	color: #5ebcf7;
+}

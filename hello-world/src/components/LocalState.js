@@ -2,9 +2,9 @@
 import React, {Component} from 'react';
 
 // Import Style
-import './css/Statecomponent.css';
+import './LocalState.css';
 
-class Statecomponent extends Component {
+class LocalState extends Component {
 
   constructor() {
     super();
@@ -29,7 +29,7 @@ class Statecomponent extends Component {
 
   render() { return(
     <div className="wrapper-state">
-      <h1>State</h1>
+      <h1>Example of Local State</h1>
       <h1>{this.state.name}</h1>
       <h1>{this.state.lastname}</h1>
       <h1>{this.state.age}</h1>
@@ -37,4 +37,4 @@ class Statecomponent extends Component {
   ); }
 }
 
-export default Statecomponent;
+export default LocalState;

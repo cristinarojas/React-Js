@@ -2,10 +2,10 @@
 import React, {Component} from 'react';
 
 // Import Style
-import './css/Section.css';
+import './Props.css';
 
 // Method for render the HTML tags
-class Section extends Component {
+class Props extends Component {
 	render() {
 
 		const title = "Cristina title";
@@ -14,6 +14,7 @@ class Section extends Component {
 
 		return(
 			<div className="wrapper">
+				<h1>Example of Props</h1>
 				<h1>{this.props.title}</h1>
 				<h1>{this.props.theattrs.id}</h1>
 				<h1 style={this.props.thestyle}>{this.props.thestyle.fontSize}</h1>
@@ -24,4 +25,4 @@ class Section extends Component {
 	}
 }
 
-export default Section;
+export default Props;
