@@ -23,5 +23,9 @@ export default [
   {
     title: 'Other Local State',
     url: '/otherlocalstate'
+  },
+  {
+    title: 'Redux Course Page',
+    url: '/coursepage'
   }
 ];

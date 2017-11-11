@@ -9,6 +9,7 @@ import LocalState from '../containers/LocalStateContainer';
 import Map from '../containers/MapContainer';
 import Events from '../containers/EventsContainer';
 import OtherLocalState from '../containers/OtherLocalStateContainer';
+import CoursePage from '../containers/CoursePageContainer';
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
           <Route path="/map" component={Map} exact />
           <Route path="/events" component={Events} exact />
           <Route path="/otherlocalstate" component={OtherLocalState} exact />
+          <Route path="/coursepage" component={CoursePage} exact />
         </Switch>
       </BrowserRouter>
     );
