@@ -46,8 +46,8 @@ class CoursePage extends Component {
     return (
       <div className="wrapper-course">
         <h1>Course Page</h1>
-        <span>Courses List</span>
-        {this.props.courses.map(this.courseRow)}
+        <h2>Courses List</h2>
+        <span>{this.props.courses.map(this.courseRow)}</span>
 
         <h2>Add Courses</h2>
         <input

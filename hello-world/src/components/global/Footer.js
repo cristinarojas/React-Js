@@ -2,8 +2,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-// Assets 
-import './css/Footer.css';
+// Assets
+import './Footer.css';
 
 class Footer extends Component {
   // Validations with PropTypes

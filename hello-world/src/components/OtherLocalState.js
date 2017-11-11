@@ -78,13 +78,15 @@ class OtherLocalState extends Component {
 	        </p>
 
 	        <h2>Calculator</h2>
-	        <input id="number1" type="number" value = { this.state.number1 } onChange = { this.handleInputChanged } />
-	        +
-	        <input id="number2" type="number" value = { this.state.number2 } onChange = { this.handleInputChanged }/>
+					<div className="wrapper-buttons">
+		        <input id="number1" type="number" value = { this.state.number1 } onChange = { this.handleInputChanged } />
+		        +
+		        <input id="number2" type="number" value = { this.state.number2 } onChange = { this.handleInputChanged }/>
 
-	        <button id="result" onClick={this.handleResultClick}> = </button>
+		        <button id="result" onClick={this.handleResultClick}> = </button>
 
-	        { this.state.result }
+		        { this.state.result }
+					</div>
 	      </div>
 	    );
 	}

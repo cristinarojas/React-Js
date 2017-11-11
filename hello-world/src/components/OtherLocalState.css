@@ -6,3 +6,8 @@
 .Content h1:first-child {
 	color: #5ebcf7;
 }
+
+.Content .wrapper-buttons {
+	width: 27%;
+  margin: 0 auto;
+}

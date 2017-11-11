@@ -1,3 +1,18 @@
 .wrapper-course h1 {
   color: #5ebcf7;
 }
+
+.wrapper-course span {
+  text-align: center;
+}
+
+.wrapper-course input[type="text"] {
+  display: block;
+  margin: 0 auto;
+}
+
+.wrapper-course input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}

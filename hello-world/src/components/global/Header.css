@@ -30,9 +30,18 @@
 
 .Menu li a {
   display: inline;
+  text-decoration: none;
 }
 
-.Menu li:hover {
+.Menu li a:active {
+  color: #5ebcf7; 
+}
+
+.Menu li a:visited {
+  color: white;
+}
+
+.Menu li a:hover {
   color: #5ebcf7;
   cursor: pointer;
   text-decoration: underline;
